@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Função para inserir um novo registro no banco de dados
     function inserirRegistro($pdo, $username, $email, $senha) {
-        $sql = "INSERT INTO cliente (username, email, senha)";
+        $sql = "INSERT INTO cliente (username, email, senha) VALUES (:username, :email, :senha)";
         $stmt = $pdo->prepare($sql);
         $stmt->bindParam(':username', $username, PDO::PARAM_STR);
         $stmt->bindParam(':email', $email, PDO::PARAM_STR);
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 if (inserirRegistro($pdo, $username, $email, $senha)) {
-    echo "Registro inserido com sucesso!<br>" . "<a href='Index.php'>Fazer Login</a>";
+    echo "Registro inserido com sucesso!<br>" . "<a href='login.php'>Fazer Login</a>";
 } else {
     echo 'Erro ao inserir o registro.';
 }

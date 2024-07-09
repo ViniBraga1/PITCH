@@ -10,6 +10,11 @@
 a{
     color: black;
 }
+
+body.dark-mode a{
+  color: #ffffff;
+}
+
 #RodaPeInicial{
     position: fixed;
     display: flex;
@@ -222,8 +227,6 @@ body.dark-mode #QuadPreto {
   background-color: #050a30;
 }
 
-body.dark-mode #a {
-  color: #ffffff;
-}
+
 
 

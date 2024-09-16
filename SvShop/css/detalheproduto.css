@@ -1,0 +1,105 @@
+#product-details{
+
+     margin-top: 100px;
+}
+
+body {
+     font-family: Arial, sans-serif;
+     background-color: white;
+     color: #fff;
+     margin: 0;
+     padding: 0;
+ }
+
+ .container {
+     display: flex;
+     max-width: 1200px;
+     margin: auto;
+     padding: 20px;
+ }
+
+ .image-gallery {
+     width: 20%;
+ }
+
+ .image-gallery img {
+     width: 100%;
+     margin-bottom: 10px;
+     cursor: pointer;
+     border: 2px solid transparent;
+ }
+
+ .image-gallery img:hover {
+     border: 2px solid #fff;
+ }
+
+ .main-image {
+     width: 40%;
+     text-align: center;
+ }
+
+ .main-image img {
+     width: 100%;
+ }
+
+ .product-details {
+     width: 40%;
+     padding-left: 50px;
+     margin-top: 700px;
+ }
+
+ .product-details h1 {
+     font-size: 24px;
+     color: #fff;
+ }
+
+ .product-details .price {
+     font-size: 28px;
+     color: black;
+ }
+
+ .product-details .discount {
+     color: #999;
+     font-size: 14px;
+ }
+
+ .sizes {
+     margin: 20px 0;
+ }
+
+ .sizes button {
+     background-color: #222;
+     color: #fff;
+     padding: 10px;
+     margin-right: 10px;
+     border: 1px solid #fff;
+     cursor: pointer;
+ }
+
+ .sizes button:hover {
+     background-color: black;
+     border-color: white;
+ }
+
+ .buy-now {
+     background-color: black;
+     color: white;
+     padding: 15px;
+     border: none;
+     font-size: 16px;
+     cursor: pointer;
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+ .buy-now:hover {
+     background-color: black;
+ }
+
+ .info {
+     font-size: 14px;
+ }
+
+ .info span {
+     color: black;
+ }

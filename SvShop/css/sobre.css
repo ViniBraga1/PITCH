@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+#QuadPreto{
+    display: grid;
+    padding-top: 4%;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+#QuadPreto img{
+    filter: invert(100%);
+}
+
+#sobrenos{
+ text-align: center;
+}
+
+#QuadPreto{
+    display: grid;
+    padding-top: 4%;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+#QuadPreto img{
+    filter: invert(100%);
+}
+
+#titulo{
+    margin-right: 100px;
+}
